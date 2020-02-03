@@ -16,7 +16,8 @@
     "build": "next build && next export",
     "lint": "eslint src pages",
     "rss": "node ./scripts/rss.js > ./out/feed.xml",
-    "github-stats": "node ./scripts/github-stats.js > ./static/github-stats.json"
+    "github-stats": "node ./scripts/github-stats.js > ./static/github-stats.json",
+    "test": "exit 0"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.5.5",
